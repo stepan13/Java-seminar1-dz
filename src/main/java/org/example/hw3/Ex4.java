@@ -7,9 +7,6 @@ import java.util.List;
 public class Ex4 {
     public static void main(String[] args) {
         List inputList = List.of(1, 2, 3);
-        //int[] newArray = getpermutations(inputArray);
-        //List res = getPermutations(inputArray);
-        //System.out.println(res);
         List res = getAnswer(inputList);
         System.out.println(res);
     }
@@ -56,7 +53,6 @@ public class Ex4 {
         }
         else {
             res = new ArrayList((Collection) o);
-            //res.addAll((Collection) o);
         }
         return res;
     }

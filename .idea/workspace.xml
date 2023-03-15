@@ -4,22 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f9af983-c5db-4bf0-a557-3da105fb0c70" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw1/Ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw1/Ex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw1/Ex3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw1/Ex4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw1/Ex5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw2/Ex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw2/Ex3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw2/Ex4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw2/model/Vector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw2/Ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw2/Ex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw2/Ex3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw2/Ex4.java" afterDir="false" />
+    <list default="true" id="5f9af983-c5db-4bf0-a557-3da105fb0c70" name="Changes" comment="второй метод решения судоку">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw3/Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw3/Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw3/Ex3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw3/Ex4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw3/model/Cubes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw3/model/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw3/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw3/Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw3/Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw3/Ex3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw3/Ex4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw3/model/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw3/model/Goods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +63,11 @@
 }</component>
   <component name="RunManager" selected="Application.Ex4">
     <configuration name="Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw2.Ex1" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hw3.Ex1" />
       <module name="sem1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw2.*" />
+          <option name="PATTERN" value="org.example.hw3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,11 +76,11 @@
       </method>
     </configuration>
     <configuration name="Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw2.Ex2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hw3.Ex2" />
       <module name="sem1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw2.*" />
+          <option name="PATTERN" value="org.example.hw3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,11 +89,11 @@
       </method>
     </configuration>
     <configuration name="Ex3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw2.Ex3" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hw3.Ex3" />
       <module name="sem1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw2.*" />
+          <option name="PATTERN" value="org.example.hw3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +102,11 @@
       </method>
     </configuration>
     <configuration name="Ex4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw2.Ex4" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hw3.Ex4" />
       <module name="sem1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw2.*" />
+          <option name="PATTERN" value="org.example.hw3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.cw2.Ex4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.cw2.Ex4" />
+    <configuration name="org.example.cw3.Ex4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.cw3.Ex4" />
       <module name="sem1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.cw2.*" />
+          <option name="PATTERN" value="org.example.cw3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,7 +133,7 @@
         <item itemvalue="Application.Ex3" />
         <item itemvalue="Application.Ex2" />
         <item itemvalue="Application.Ex1" />
-        <item itemvalue="Application.org.example.cw2.Ex4" />
+        <item itemvalue="Application.org.example.cw3.Ex4" />
       </list>
     </recent_temporary>
   </component>
@@ -153,13 +153,29 @@
       <option name="project" value="LOCAL" />
       <updated>1678121782050</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="семинар 2">
+      <created>1678212078638</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678212078638</updated>
+    </task>
+    <task id="LOCAL-00003" summary="второй метод решения судоку">
+      <created>1678218839485</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678218839485</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
     <MESSAGE value="initia" />
-    <option name="LAST_COMMIT_MESSAGE" value="initia" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="семинар 2" />
+    <MESSAGE value="второй метод решения судоку" />
+    <option name="LAST_COMMIT_MESSAGE" value="второй метод решения судоку" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,19 +2,30 @@ package org.example.hw3;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.List;
 
 public class Ex4 {
     public static void main(String[] args) {
-        List inputList = List.of(1, 2, 3);
-        List res = getAnswer(inputList);
+        List inputList = List.of(1, 3, 3, 4, 4);
+        HashSet noDouble = new HashSet<>(inputList);
+        List noDouble2 = new ArrayList(noDouble);
+        List res = getAnswer(noDouble2);
         System.out.println(res);
     }
 
     public static List getAnswer(List inputList){
         int size = inputList.size();
         List exList = new ArrayList();
-        List res = getPermutations(size, exList);
+        List resIndexes = getPermutations(size, exList);
+        List res = new ArrayList<>();
+        for (Object item : resIndexes){
+            List newList = new ArrayList<>();
+            for(Object value : (Collection) item){
+                newList.add(inputList.get((Integer) value));
+            }
+            res.add(newList);
+        }
         return res;
     }
 

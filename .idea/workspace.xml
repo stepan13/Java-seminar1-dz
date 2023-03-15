@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f9af983-c5db-4bf0-a557-3da105fb0c70" name="Changes" comment="второй метод решения судоку">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw3/Ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw3/Ex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw3/Ex3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw3/Ex4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw3/model/Cubes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw3/model/Items.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cw3/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw3/Ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw3/Ex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw3/Ex3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw3/Ex4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw3/model/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw3/model/Goods.java" afterDir="false" />
+    <list default="true" id="5f9af983-c5db-4bf0-a557-3da105fb0c70" name="Changes" comment="home work 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw3/Ex4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw3/Ex4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +22,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="386c35c6-10ad-4e4f-97a9-3f19a2c6d637" />
+        <option name="url" value="https://github.com/stepan13/Java-seminar1-dz.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -167,7 +167,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678218839485</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="class work 3">
+      <created>1678895799985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678895799985</updated>
+    </task>
+    <task id="LOCAL-00005" summary="home work 3">
+      <created>1678895891847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678895891847</updated>
+    </task>
+    <task id="LOCAL-00006" summary="home work 3">
+      <created>1678895988282</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678895988282</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -175,7 +196,9 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="семинар 2" />
     <MESSAGE value="второй метод решения судоку" />
-    <option name="LAST_COMMIT_MESSAGE" value="второй метод решения судоку" />
+    <MESSAGE value="class work 3" />
+    <MESSAGE value="home work 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="home work 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

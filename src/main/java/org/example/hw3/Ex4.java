@@ -8,7 +8,7 @@ import java.util.List;
 public class Ex4 {
     public static void main(String[] args) {
         List inputList = List.of(1, 3, 3, 4, 4);
-        HashSet noDouble = new HashSet<>(inputList);
+        HashSet noDouble = new HashSet<>(inputList); //избавляемся от дублей
         List noDouble2 = new ArrayList(noDouble);
         List res = getAnswer(noDouble2);
         System.out.println(res);
@@ -17,9 +17,9 @@ public class Ex4 {
     public static List getAnswer(List inputList){
         int size = inputList.size();
         List exList = new ArrayList();
-        List resIndexes = getPermutations(size, exList);
+        List resIndexes = getPermutations(size, exList); //сначала получаем перестановку для индексов
         List res = new ArrayList<>();
-        for (Object item : resIndexes){
+        for (Object item : resIndexes){ //теперь уже подставляем изначальные значения
             List newList = new ArrayList<>();
             for(Object value : (Collection) item){
                 newList.add(inputList.get((Integer) value));

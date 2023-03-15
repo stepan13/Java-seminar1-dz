@@ -25,7 +25,6 @@ public class Ex2 {
         char[] arr = inputString.toCharArray();
         Deque qu = new LinkedList();
         String open = "([{";
-        String close = ")}]";
         for (Character ch : arr) {
             if (open.contains(ch.toString())) qu.add(ch);
             else if (qu.isEmpty()) return false;

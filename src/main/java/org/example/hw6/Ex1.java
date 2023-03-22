@@ -27,7 +27,7 @@ public class Ex1 {
         System.out.printf("We have %d notebooks!%n",base.size());
         UserFilter filter = new UserFilter(base);
         while (filter.isUserHere()) {
-            filter.askFilter(base);
+            filter.askFilter();
         }
     }
 

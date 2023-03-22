@@ -64,8 +64,7 @@ public class UserFilter extends Notebook {
     }
 
 
-    public void askFilter(Set<Notebook> base) {
-        this.base = new LinkedHashSet<>(base);
+    public void askFilter() {
         printOptions();
         System.out.print("Option: ");
         Scanner sc = new Scanner(System.in);
